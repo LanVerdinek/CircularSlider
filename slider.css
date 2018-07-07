@@ -1,0 +1,35 @@
+
+
+.ranger{
+  display: none;
+}
+
+.podatki_cen{
+  font-size: 30px;
+}
+
+.krogec{
+  pointer-events: none;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.grid-container {
+  width: 50%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+}
+.grid-item {
+
+  font-size: 30px;
+  text-align: center;
+}
+.grid-itemButton {
+  font-size: 30px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}

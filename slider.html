@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="slider.js"></script>
+    <link rel="stylesheet" href="slider.css">
+
+</head>
+
+<body>
+<div class="grid-container">
+  <div class="grid-item">
+    Ime: <input id="name" type="text" name="fname">
+  </div>
+    <div class="grid-item">
+      Min: <input id="minimum" type="text" name="fname">
+    </div>
+    <div class="grid-item">
+      Max: <input id="maksimum" type="text" name="fname">
+    </div>
+    <div class="grid-itemButton">
+      <button class="button" onclick="ustvari()">Dodaj slider</button>
+    </div>
+  </div>
+
+    <div id="container">
+        <div class="sliderContainer">
+          <svg class="bari" id="id_bari" width="500" height="500" viewBox="0 0 500 500"></svg>
+        </div>
+
+    </div>
+<div class="cenovnik"></div>
+</body>
+</html>
