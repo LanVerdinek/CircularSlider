@@ -93,6 +93,11 @@ function ustvari() {
         return;
       }
 
+      if (ime_podatka == ""){
+        alert("PROSIM VNESITE IME");
+        return;
+      }
+        
       if (prvi_podatek > drugi_podatek){
         alert("PROSIM VNESITE VREDNOSTI PRAVILNE VELIKOSTI");
         return;
